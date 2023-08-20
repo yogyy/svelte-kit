@@ -1,8 +1,9 @@
 {
-	"editor.formatOnSave": true,
-	"[svelte]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "svelte.svelte-vscode",
-		"editor.tabSize": 2
-	}
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[svelte]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  }
 }

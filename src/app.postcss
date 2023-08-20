@@ -1,0 +1,10 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn-counter {
+		@apply w-[2rem] p-0 flex items-center justify-center bg-transparent touch-manipulation text-[2rem] hover:bg-[var(--color-bg-1)];
+	}
+}

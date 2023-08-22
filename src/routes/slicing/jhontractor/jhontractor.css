@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unlock&display=swap');
+
+:root {
+  --primary-jhontractor: #ff7420;
+  --secondary-jhontractor: #191a19;
+  --accent-jhontractor: #ffffff;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: Poppins;
+  color: var(--accent-jhontractor);
+  background-color: var(--secondary-jhontractor);
+}

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unlock&display=swap');
 
 :root {
-  --primary-jhontractor: #ff7420;
-  --secondary-jhontractor: #191a19;
-  --accent-jhontractor: #ffffff;
+  --primary-jhontractor: rgb(255, 117, 31);
+  --secondary-jhontractor: rgb(25, 26, 25);
+  --accent-jhontractor: rgb(255, 255, 255);
 }
 
 html {

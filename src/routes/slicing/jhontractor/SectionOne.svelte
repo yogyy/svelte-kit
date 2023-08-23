@@ -33,17 +33,19 @@
     </div>
   </div>
   <div class="testi">
-    <div class="inline-flex p-[10px] justify-center items-center gap-2">
-      <span><CheckCircle /></span>
-      <p>Quality Control System, 100% Satisfaction Guarantee</p>
-    </div>
-    <div class="inline-flex p-[10px] justify-center items-center gap-2">
-      <span><CheckCircle /></span>
-      <p>Highly Proffesional Staff, Accurate Testing Processes</p>
-    </div>
-    <div class="inline-flex p-[10px] justify-center items-center gap-2">
-      <span><CheckCircle /> </span>
-      <p>Unrivalled Workmanship, Proffesional and Qualified</p>
+    <div class="flex flex-col items-start">
+      <div class="inline-flex p-[10px] justify-center items-center gap-2">
+        <span><CheckCircle /></span>
+        <p>Quality Control System, 100% Satisfaction Guarantee</p>
+      </div>
+      <div class="inline-flex p-[10px] justify-center items-center gap-2">
+        <span><CheckCircle /></span>
+        <p>Highly Proffesional Staff, Accurate Testing Processes</p>
+      </div>
+      <div class="inline-flex p-[10px] justify-center items-center gap-2">
+        <span><CheckCircle /> </span>
+        <p>Unrivalled Workmanship, Proffesional and Qualified</p>
+      </div>
     </div>
   </div>
   <div class="flex mt-[122px]">
@@ -127,10 +129,17 @@
       gap: 10px;
       background-color: var(--accent-jhontractor);
       color: var(--secondary-jhontractor);
+      transition: all 0.3s;
 
       &:first-child {
         background-color: var(--primary-jhontractor);
         color: var(--accent-jhontractor);
+        &:hover {
+          background-color: rgb(255 116 32 / 0.7);
+        }
+      }
+      &:hover {
+        background-color: rgb(255 255 255 / 0.7);
       }
     }
   }

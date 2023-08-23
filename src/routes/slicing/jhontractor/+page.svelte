@@ -4,7 +4,10 @@
   import SectionTwo from './SectionTwo.svelte';
 </script>
 
-<Header />
-<main class="-mt-[158px]">
-  <SectionOne />
-</main>
+<div class="w-8/12 xl:w-full">
+  <Header />
+  <main class="flex-1 flex flex-col">
+    <SectionOne />
+    <SectionTwo />
+  </main>
+</div>

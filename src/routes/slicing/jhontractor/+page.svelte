@@ -1,13 +1,20 @@
 <script>
+  import Footer from './Footer.svelte';
   import Header from './Header.svelte';
   import SectionOne from './SectionOne.svelte';
+  import SectionThree from './SectionThree.svelte';
   import SectionTwo from './SectionTwo.svelte';
 </script>
 
-<div class="w-8/12 xl:w-full">
-  <Header />
-  <main class="flex-1 flex flex-col">
-    <SectionOne />
-    <SectionTwo />
-  </main>
-</div>
+<!-- <div class="px-20 mx-auto bg-black"> -->
+<Header />
+<main class="">
+  <SectionOne />
+  <SectionTwo />
+  <SectionThree />
+</main>
+<Footer />
+<!-- </div>
+
+<style>
+</style> -->

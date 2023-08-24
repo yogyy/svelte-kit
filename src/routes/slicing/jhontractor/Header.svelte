@@ -12,7 +12,7 @@
 <header
   class={cn(
     'z-10 flex items-center justify-around w-full',
-    y > 717 ? '' : 'sticky top-0'
+    y > 717 ? '' : 'sticky top-0 w-full'
   )}>
   <div class="logo">
     <p>JHONTRAKTOR</p>

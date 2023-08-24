@@ -26,7 +26,7 @@
     <TimeLine>Implementation Of<br />Quality Works</TimeLine>
     <TimeLine>Delivering The Project<br />To The Customer</TimeLine>
   </div>
-  <div class="flex w-4/5 items-center mt-16">
+  <div class="flex lg:w-4/5 items-center mt-16">
     <div class="text-6xl font-semibold w-fit text-zinc-900">
       Featured Project
     </div>
@@ -125,6 +125,7 @@
 <style>
   .sect-1 {
     background-color: var(--primary-jhontractor);
+    width: 100%;
   }
 
   .sect-2 {

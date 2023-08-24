@@ -3,7 +3,9 @@
   import CheckCircle from './assets/icons/CheckCircle.svelte';
 </script>
 
-<section id="sect-1" class="w-full h-screen hero pl-[112px] flex items-center">
+<section
+  id="sect-1"
+  class="w-full h-auto min-h-screen hero pl-[112px] flex items-center relative">
   <div class="hero-div">
     <p>We Prepare</p>
     <p>
@@ -21,7 +23,7 @@
   </div>
 </section>
 <section class="relative sect-2">
-  <div class="flex pt-16 gap-7">
+  <div class="flex pt-16 gap-7 flex-wrap">
     <div class="flex items-center gap-1 ml-[110px]">
       <span class="porto">25+</span><span>Years of <br />Experience</span>
     </div>

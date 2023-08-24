@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unlock&display=swap');
+
+:root {
+  --primary-jhontractor: rgb(255, 117, 31);
+  --secondary-jhontractor: rgb(25, 26, 25);
+  --accent-jhontractor: rgb(255, 255, 255);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: Poppins;
+  color: var(--accent-jhontractor);
+  background-color: var(--secondary-jhontractor);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
